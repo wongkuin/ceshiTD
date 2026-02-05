@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Material",
+  "_name": "UVAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "6364d645-b40c-48e8-8fe7-6a21974dfa49"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "uWidth": 1,
+        "uHeight": 12,
+        "uFrames": 3,
+        "uSpeed": 6,
+        "texture": {
+          "__uuid__": "779d7dcc-434e-43eb-b59c-d986cf6fea27"
+        },
+        "uInvertX": true
+      },
+      "defines": {
+        "USE_TEXTURE": false,
+        "USE_TINT": false
+      }
+    }
+  }
+}

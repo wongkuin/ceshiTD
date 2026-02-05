@@ -1,0 +1,126 @@
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        alphaThreshold: { value: 0.5 }
+}%
+
+CCProgram vs %{
+
+precision highp float;
+
+#include <cc-global>
+#include <cc-local>
+
+in vec3 a_position;
+in vec4 a_color;
+#if USE_TINT
+  in vec4 a_color0;
+#endif
+
+in vec2 a_uv0;
+out vec2 v_uv0;
+
+out vec4 v_light;
+#if USE_TINT
+  out vec4 v_dark;
+#endif
+
+void main () {
+  mat4 mvp;
+  
+  #if CC_USE_MODEL
+    mvp = cc_matViewProj * cc_matWorld;
+  #else
+    mvp = cc_matViewProj;
+  #endif
+
+  v_uv0 = a_uv0;
+
+  v_light = a_color;
+  #if USE_TINT
+    v_dark = a_color0;
+  #endif
+
+  gl_Position = mvp * vec4(a_position, 1);
+}
+
+}%
+
+CCProgram fs %{
+
+precision highp float;
+
+uniform sampler2D texture;
+in vec2 v_uv0;
+
+in vec4 v_light;
+#if USE_TINT
+  in vec4 v_dark;
+#endif
+
+#include <alpha-test>
+#include <texture>
+
+float fr(vec2 c, float seed) 
+{
+return fract(43.0 * sin(c.x + 7.0 * c.y) * seed);
+}
+
+float fn(vec2 p, float seed)
+{
+    vec2 i = floor(p), w = p - i, j = vec2(1.0, 0.0);
+    w = w * w * (3.0 - w - w);
+    return mix(mix(fr(i, seed), fr(i + j, seed), w.x), mix(fr(i + j.yx, seed), fr(i + 1.0, seed), w.x), w.y);
+}
+
+float fa(vec2 p, float seed) 
+{
+    float m = 0.0, f = 2.0;
+    for (int i = 0; i < 6; i++) {
+    m += fn(f * p, seed) / f; 
+    f += f;
+    }
+    return m;
+}
+vec4 BurnOut(vec4 MainColor, vec2 uv, float progression) 
+{
+    float t = fract(progression * 0.9999);
+    float cc = smoothstep(t / 1.2, t + 0.1, fa(3.5 * uv, 1.));
+    vec4 c = vec4(cc);
+    c = MainColor * c;
+    c.r = mix(c.r, c.r * 15.0 * (1.0 - c.a) * 8.0, progression);
+    c.g = mix(c.g, c.g * 10.0 * (1.0 - c.a) * 4.0, progression);
+    c.b = mix(c.b, c.b * 5.0 * (1.0 - c.a), progression);
+    return vec4(c.rgb, c.a);
+}
+
+
+void main () {
+  vec4 texColor = vec4(1.0);
+  CCTexture(texture, v_uv0, texColor);
+  vec4 finalColor;
+
+  #if USE_TINT
+    finalColor.a = v_light.a * texColor.a;
+    finalColor.rgb = ((texColor.a - 1.0) * v_dark.a + 1.0 - texColor.rgb) * v_dark.rgb + texColor.rgb * v_light.rgb;
+  #else
+    //finalColor = texColor * v_light;
+    vec4 o = texture(texture, v_uv0);
+    float progress = 1.-v_light.a;
+    o = BurnOut(o,v_uv0,progress);
+    finalColor = o;
+  #endif
+  ALPHA_TEST(finalColor);
+  gl_FragColor = finalColor;
+}
+
+}%

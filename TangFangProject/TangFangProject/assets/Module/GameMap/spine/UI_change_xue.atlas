@@ -1,0 +1,160 @@
+
+UI_change_xue.png
+size: 1938,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0_00001
+  rotate: true
+  xy: 2, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00003
+  rotate: true
+  xy: 260, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00005
+  rotate: true
+  xy: 518, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00007
+  rotate: true
+  xy: 776, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00009
+  rotate: true
+  xy: 1034, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00011
+  rotate: true
+  xy: 1292, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00013
+  rotate: true
+  xy: 1550, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00015
+  rotate: false
+  xy: 1808, 134
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00017
+  rotate: true
+  xy: 2, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00019
+  rotate: true
+  xy: 260, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00021
+  rotate: true
+  xy: 518, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00023
+  rotate: true
+  xy: 776, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00025
+  rotate: true
+  xy: 1034, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00027
+  rotate: true
+  xy: 1292, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00029
+  rotate: true
+  xy: 1550, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00031
+  rotate: true
+  xy: 2, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00033
+  rotate: true
+  xy: 260, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00035
+  rotate: true
+  xy: 518, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00037
+  rotate: true
+  xy: 776, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00039
+  rotate: true
+  xy: 1034, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00041
+  rotate: true
+  xy: 1292, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+0_00043
+  rotate: true
+  xy: 1550, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1

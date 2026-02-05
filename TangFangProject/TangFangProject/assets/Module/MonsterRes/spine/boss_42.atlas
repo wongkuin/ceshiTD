@@ -1,0 +1,167 @@
+
+boss_42.png
+size: 964,964
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 622, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+hit_10_00000
+  rotate: false
+  xy: 2, 662
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+hit_10_00001
+  rotate: false
+  xy: 2, 360
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+hit_10_00002
+  rotate: false
+  xy: 2, 58
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+hit_10_00003
+  rotate: false
+  xy: 304, 662
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+hit_10_00004
+  rotate: false
+  xy: 304, 360
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+hit_10_00005
+  rotate: false
+  xy: 320, 58
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+hit_10_00006
+  rotate: false
+  xy: 606, 662
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+hit_10_00007
+  rotate: false
+  xy: 606, 360
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+嘴
+  rotate: false
+  xy: 224, 12
+  size: 24, 8
+  orig: 24, 8
+  offset: 0, 0
+  index: -1
+头
+  rotate: true
+  xy: 738, 207
+  size: 151, 174
+  orig: 151, 174
+  offset: 0, 0
+  index: -1
+小辫子
+  rotate: true
+  xy: 107, 20
+  size: 36, 85
+  orig: 36, 85
+  offset: 0, 0
+  index: -1
+手1
+  rotate: true
+  xy: 752, 43
+  size: 129, 73
+  orig: 129, 73
+  offset: 0, 0
+  index: -1
+手2
+  rotate: true
+  xy: 827, 78
+  size: 127, 78
+  orig: 127, 78
+  offset: 0, 0
+  index: -1
+眉毛1
+  rotate: false
+  xy: 280, 10
+  size: 28, 12
+  orig: 28, 12
+  offset: 0, 0
+  index: -1
+眉毛2
+  rotate: false
+  xy: 194, 8
+  size: 28, 12
+  orig: 29, 12
+  offset: 0, 0
+  index: -1
+眼白1
+  rotate: true
+  xy: 280, 24
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+眼白2
+  rotate: true
+  xy: 827, 48
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+腿1
+  rotate: true
+  xy: 738, 174
+  size: 31, 87
+  orig: 32, 88
+  offset: 0, 1
+  index: -1
+腿2
+  rotate: true
+  xy: 194, 22
+  size: 34, 84
+  orig: 34, 85
+  offset: 0, 1
+  index: -1
+身体
+  rotate: false
+  xy: 622, 136
+  size: 114, 222
+  orig: 114, 222
+  offset: 0, 0
+  index: -1
+黄符
+  rotate: true
+  xy: 2, 2
+  size: 54, 103
+  orig: 55, 103
+  offset: 0, 0
+  index: -1
+鼻子
+  rotate: true
+  xy: 250, 13
+  size: 7, 19
+  orig: 7, 19
+  offset: 0, 0
+  index: -1

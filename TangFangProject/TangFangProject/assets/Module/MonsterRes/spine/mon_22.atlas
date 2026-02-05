@@ -1,0 +1,132 @@
+
+mon_22.png
+size: 221,221
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 79, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+发片1
+  rotate: false
+  xy: 174, 118
+  size: 35, 101
+  orig: 35, 108
+  offset: 0, 0
+  index: -1
+发片2
+  rotate: false
+  xy: 2, 6
+  size: 75, 94
+  orig: 79, 103
+  offset: 4, 7
+  index: -1
+右手
+  rotate: true
+  xy: 97, 102
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+右手腕
+  rotate: true
+  xy: 145, 33
+  size: 19, 35
+  orig: 19, 35
+  offset: 0, 0
+  index: -1
+右手臂
+  rotate: false
+  xy: 139, 4
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+后发片
+  rotate: false
+  xy: 97, 120
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+后袖1
+  rotate: true
+  xy: 188, 10
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+后袖2
+  rotate: true
+  xy: 165, 3
+  size: 28, 21
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+嘴
+  rotate: false
+  xy: 124, 107
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+左手
+  rotate: false
+  xy: 182, 34
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+左手腕
+  rotate: false
+  xy: 211, 183
+  size: 8, 36
+  orig: 8, 36
+  offset: 0, 0
+  index: -1
+左手臂
+  rotate: false
+  xy: 211, 148
+  size: 8, 33
+  orig: 8, 33
+  offset: 0, 0
+  index: -1
+脸
+  rotate: false
+  xy: 145, 54
+  size: 57, 62
+  orig: 57, 62
+  offset: 0, 0
+  index: -1
+袖子1
+  rotate: false
+  xy: 115, 4
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+袖子2
+  rotate: false
+  xy: 79, 2
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+身体 拷贝
+  rotate: false
+  xy: 2, 102
+  size: 93, 117
+  orig: 93, 117
+  offset: 0, 0
+  index: -1
+鼻子
+  rotate: false
+  xy: 188, 2
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1

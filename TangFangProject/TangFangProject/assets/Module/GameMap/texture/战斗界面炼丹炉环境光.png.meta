@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "816ddb8c-3a4d-455e-8cb1-ee9693f09440",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 900,
+  "height": 900,
+  "platformSettings": {},
+  "subMetas": {
+    "战斗界面炼丹炉环境光": {
+      "ver": "1.0.6",
+      "uuid": "c79bd30d-4e1e-4448-bcb3-f7786eb6b366",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "816ddb8c-3a4d-455e-8cb1-ee9693f09440",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -36.5,
+      "trimX": 4,
+      "trimY": 120,
+      "width": 892,
+      "height": 733,
+      "rawWidth": 900,
+      "rawHeight": 900,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

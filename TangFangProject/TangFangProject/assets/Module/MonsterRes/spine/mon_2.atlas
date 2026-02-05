@@ -1,0 +1,167 @@
+
+mon_2.png
+size: 487,487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 306, 27
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+hit_10_00000
+  rotate: false
+  xy: 2, 335
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit_10_00001
+  rotate: false
+  xy: 2, 183
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit_10_00002
+  rotate: false
+  xy: 154, 335
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit_10_00003
+  rotate: false
+  xy: 2, 31
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit_10_00004
+  rotate: false
+  xy: 154, 183
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit_10_00005
+  rotate: false
+  xy: 306, 335
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit_10_00006
+  rotate: false
+  xy: 154, 31
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit_10_00007
+  rotate: false
+  xy: 306, 183
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+嘴
+  rotate: true
+  xy: 476, 419
+  size: 12, 4
+  orig: 12, 4
+  offset: 0, 0
+  index: -1
+头
+  rotate: false
+  xy: 306, 93
+  size: 75, 88
+  orig: 75, 89
+  offset: 0, 1
+  index: -1
+小辫子
+  rotate: true
+  xy: 2, 11
+  size: 18, 43
+  orig: 18, 43
+  offset: 0, 0
+  index: -1
+手1
+  rotate: true
+  xy: 435, 126
+  size: 55, 41
+  orig: 55, 46
+  offset: 0, 2
+  index: -1
+手2
+  rotate: false
+  xy: 372, 40
+  size: 58, 41
+  orig: 59, 41
+  offset: 0, 0
+  index: -1
+眉毛1
+  rotate: false
+  xy: 372, 32
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1
+眉毛2
+  rotate: false
+  xy: 2, 3
+  size: 14, 6
+  orig: 15, 6
+  offset: 0, 0
+  index: -1
+眼白1
+  rotate: false
+  xy: 435, 105
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+眼白2
+  rotate: false
+  xy: 458, 366
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+腿1
+  rotate: false
+  xy: 458, 387
+  size: 16, 44
+  orig: 16, 44
+  offset: 0, 0
+  index: -1
+腿2
+  rotate: true
+  xy: 47, 12
+  size: 17, 43
+  orig: 17, 43
+  offset: 0, 0
+  index: -1
+身体
+  rotate: false
+  xy: 383, 83
+  size: 50, 98
+  orig: 50, 98
+  offset: 0, 0
+  index: -1
+黄符
+  rotate: false
+  xy: 458, 433
+  size: 27, 52
+  orig: 28, 52
+  offset: 0, 0
+  index: -1
+鼻子
+  rotate: false
+  xy: 92, 19
+  size: 4, 10
+  orig: 4, 10
+  offset: 0, 0
+  index: -1

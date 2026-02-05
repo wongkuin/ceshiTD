@@ -1,0 +1,15 @@
+{
+    "GameName": "动物跑酷",
+    "GameID": "squares_def",
+    "Banner": [],
+    "RewardVideos": [
+        "adunit-8d55633df0abb3c6"
+    ],
+    "Interstitial": [],
+    "AppId": "wx66e00bdafe5f2f35",
+    "AppSecrect": "abc",
+    "Channel": "public",
+    "platformType": 2,
+    "gameVer": "",
+    "svnVer": 1
+}

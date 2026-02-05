@@ -1,0 +1,48 @@
+
+UI_baoxiang.png
+size: 929,929
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_yb_xiang
+  rotate: true
+  xy: 2, 840
+  size: 87, 89
+  orig: 87, 89
+  offset: 0, 0
+  index: -1
+ui_zs_xiang
+  rotate: true
+  xy: 93, 839
+  size: 88, 90
+  orig: 88, 90
+  offset: 0, 0
+  index: -1
+ui_zs_xiang_00000
+  rotate: true
+  xy: 185, 752
+  size: 175, 184
+  orig: 175, 184
+  offset: 0, 0
+  index: -1
+ui_zs_xiang_00001
+  rotate: true
+  xy: 371, 752
+  size: 175, 184
+  orig: 175, 184
+  offset: 0, 0
+  index: -1
+ui_zs_xiang_00002
+  rotate: true
+  xy: 557, 752
+  size: 175, 184
+  orig: 175, 184
+  offset: 0, 0
+  index: -1
+ui_zs_xiang_00003
+  rotate: true
+  xy: 743, 752
+  size: 175, 184
+  orig: 175, 184
+  offset: 0, 0
+  index: -1

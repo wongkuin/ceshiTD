@@ -1,0 +1,302 @@
+import { Blackboard } from "./blackboard";
+import type { BTContext, DeepReadonly, NodeContructor, Optional , ObjectType } from "./context";
+import type { BTTree, BTTreeData } from "./tree";
+
+export type BTStatus = "success" | "failure" | "running";
+// export enum BTStatusEnum {
+//     success = 'success',
+//     failure = 'failure'
+//     running = 'running',
+// }
+
+export interface BTNodeDef {
+    name: string;
+    /**
+     * Recommended type used for the node definition:
+     * + `Action`: No children allowed, returns `success`, `failure` or `running`.
+     * + `Decorator`: Only one child allowed, returns `success`, `failure` or `running`.
+     * + `Composite`: Contains more than one child, returns `success`, `failure` or `running`.
+     * + `Condition`: No children allowed, no output, returns `success` or `failure`.
+     */
+    type: "Action" | "Decorator" | "Condition" | "Composite";
+    desc: string;
+    /** ["input1?", "input2..."] */
+    input?: string[];
+    /** ["output1", "output2..."] */
+    output?: string[];
+    args?: {
+        name: string;
+        type:
+            | "bool"
+            | "bool?"
+            | "bool[]"
+            | "bool[]?"
+            | "int"
+            | "int?"
+            | "int[]"
+            | "int[]?"
+            | "float"
+            | "float?"
+            | "float[]"
+            | "float[]?"
+            | "string"
+            | "string?"
+            | "string[]"
+            | "string[]?"
+            | "json"
+            | "json?"
+            | "json[]"
+            | "json[]?"
+            | "enum"
+            | "enum?"
+            | "enum[]"
+            | "enum[]?"
+            | "expr"
+            | "expr?"
+            | "expr[]"
+            | "expr[]?";
+        desc: string;
+        /** Input `value`, only one is allowed between `value` and this arg.*/
+        oneof?: string;
+        default?: unknown;
+        options?: { name: string; value: unknown; desc?: string }[];
+    }[];
+    doc?: string;
+    icon?: string;
+    color?: string;
+    /**
+     * Used in Behavior3 Editor, to help editor deduce the status of the node.
+     *
+     * + `!success`  !(child_success|child_success|...)
+     * + `!failure`  !(child_failure|child_failure|...)
+     * + `|success`  child_success|child_success|...
+     * + `|failure`  child_failure|child_failure|...
+     * + `|running`  child_running|child_running|...
+     * + `&success`  child_success&child_success&...
+     * + `&failure`  child_failure&child_failure&...
+     */
+    status?: (
+        | "success"
+        | "failure"
+        | "running"
+        | "!success"
+        | "!failure"
+        | "|success"
+        | "|failure"
+        | "|running"
+        | "&success"
+        | "&failure"
+    )[];
+    /**
+     * Used in Behavior3 Editor, to help editor alert error when the num of children is wrong.
+     *
+     * Allowed number of children
+     * + -1: unlimited
+     * + 0: no children
+     * + 1: exactly one
+     * + 2: exactly two (case)
+     * + 3: exactly three children (ifelse)
+     */
+    children?: -1 | 0 | 1 | 2 | 3;
+}
+
+export interface BTNodeData {
+    id: number;
+    name: string;
+    desc: string;
+    args: { [k: string]: unknown };
+    debug?: boolean;
+    disabled?: boolean;
+    input: string[];
+    output: string[];
+    children: BTNodeData[];
+
+    tree: BTTreeData;
+}
+
+export abstract class BTNode {
+    readonly args: unknown = {};
+    readonly input: unknown[] = [];
+    readonly output: unknown[] = [];
+
+    protected readonly _context: BTContext;
+
+    private _parent: BTNode | null = null;
+    private _children: BTNode[] = [];
+    private _cfg: DeepReadonly<BTNodeData>;
+    private _yield?: string;
+    private _argObjectKeys: Record<string, string> = {};
+
+    constructor(context: BTContext, cfg: BTNodeData) {
+        this._context = context;
+        this._cfg = cfg;
+        Object.keys(cfg.args).forEach((k) => {
+            const value = cfg.args[k];
+            if (value && typeof value === "object") {
+                this._argObjectKeys[k] = JSON.stringify(value);
+            } else {
+                (this.args as ObjectType)[k] = value;
+            }
+        });
+
+        for (const childCfg of cfg.children) {
+            if (!childCfg.disabled) {
+                const child = BTNode.create(context, childCfg);
+                child._parent = this;
+                this._children.push(child);
+            }
+        }
+    }
+
+    /** @private */
+    get __yield() {
+        return (this._yield ||= Blackboard.makeTempVar(this, "YIELD"));
+    }
+
+    get cfg() {
+        return this._cfg;
+    }
+
+    get id() {
+        return this.cfg.id;
+    }
+
+    get name() {
+        return this.cfg.name;
+    }
+
+    get parent() {
+        return this._parent;
+    }
+
+    get children(): Readonly<BTNode[]> {
+        return this._children;
+    }
+
+    private _tryTick(tree: BTTree<BTContext, unknown>) {
+        try {
+            return this.onTick(tree);
+        } catch (e) {
+            console.error(e);
+            return "failure";
+        }
+    }
+
+    tick(tree: BTTree<BTContext, unknown>): BTStatus {
+        const { stack, blackboard } = tree;
+        const { cfg, input, output, args } = this;
+
+        if (stack.top() !== this) {
+            stack.push(this);
+        }
+
+        input.length = 0;
+        output.length = 0;
+
+        for (const k in this._argObjectKeys) {
+            (args as ObjectType)[k] = JSON.parse(this._argObjectKeys[k]);
+        }
+
+        cfg.input.forEach((varName) => {
+            input.push(blackboard.get(varName));
+        });
+
+        const status = this._tryTick(tree);
+
+        if (tree.__interrupted) {
+            return "running";
+        } else if (status !== "running") {
+            cfg.output.forEach((varName, i) => {
+                blackboard.set(varName, output[i]);
+            });
+            stack.pop();
+        } else if (blackboard.get(this.__yield) === undefined) {
+            blackboard.set(this.__yield, true);
+        }
+
+        tree.__lastNodeStatus = status;
+
+        if (cfg.debug || tree.debug) {
+            let varStr = "";
+            for (const k in blackboard.values) {
+                if (!(Blackboard.isTempVar(k) || Blackboard.isPrivateVar(k))) {
+                    varStr += `${k}:${blackboard.values[k]}, `;
+                }
+            }
+            const indent = tree.debug ? " ".repeat(stack.length) : "";
+            console.debug(
+                `[DEBUG] behavior3 -> ${indent}${this.name}: tree:${this.cfg.tree.name} tree_id:${tree.id}, ` +
+                    `node:${this.id}, status:${status}, values:{${varStr}} args:${JSON.stringify(
+                        cfg.args
+                    )}`
+            );
+        }
+
+        return status;
+    }
+
+    error(msg: string) {
+        throw new Error(`${this.cfg.tree.name}->${this.name}#${this.id}: ${msg}`);
+    }
+
+    warn(msg: string) {
+        console.warn(`${this.cfg.tree.name}->${this.name}#${this.id}: ${msg}`);
+    }
+
+    info(msg: string) {
+        console.info(`${this.cfg.tree.name}->${this.name}#${this.id}: ${msg}`);
+    }
+
+    protected _checkOneof<V>(inputIndex: number, argValue: V | undefined, defaultValue?: V) {
+        const inputValue = this.input[inputIndex];
+        const inputName = this.cfg.input[inputIndex];
+        let value: V | undefined;
+        if (inputName) {
+            if (inputValue === undefined) {
+                const func = defaultValue === undefined ? this.error : this.warn;
+                func.call(this, `${this.cfg.tree.name}#${this.id}: missing input '${inputName}'`);
+            }
+            value = inputValue as V;
+        } else {
+            value = argValue;
+        }
+        return (value ?? defaultValue) as V;
+    }
+
+    abstract onTick(tree: BTTree<BTContext, unknown>): BTStatus;
+
+    static get descriptor(): BTNodeDef {
+        throw new Error(`descriptor not found in '${this.name}'`);
+    }
+
+    static create(context: BTContext, cfg: BTNodeData) {
+        const NodeCls = context.nodeCtors[cfg.name] as Optional<NodeContructor<BTNode>>;
+        const descriptor = context.nodeDefs[cfg.name] as Optional<BTNodeDef>;
+
+        if (!NodeCls || !descriptor) {
+            throw new Error(`behavior3: node '${cfg.tree.name}->${cfg.name}' is not registered`);
+        }
+
+        const node = new NodeCls(context, cfg);
+
+        if (node.tick !== BTNode.prototype.tick) {
+            throw new Error("don't override 'tick' function");
+        }
+
+        if (
+            descriptor.children !== undefined &&
+            descriptor.children !== -1 &&
+            descriptor.children !== node.children.length
+        ) {
+            if (descriptor.children === 0) {
+                node.warn(`no children is required`);
+            } else if (node.children.length < descriptor.children) {
+                node.error(`at least ${descriptor.children} children are required`);
+            } else {
+                node.warn(`exactly ${descriptor.children} children`);
+            }
+        }
+
+        return node;
+    }
+}

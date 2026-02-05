@@ -1,0 +1,97 @@
+
+boss_6.png
+size: 401,401
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: true
+  xy: 364, 335
+  size: 64, 30
+  orig: 64, 64
+  offset: 0, 17
+  index: -1
+jianjiao1_00000
+  rotate: false
+  xy: 240, 151
+  size: 124, 128
+  orig: 128, 128
+  offset: 4, 0
+  index: -1
+图层 26
+  rotate: false
+  xy: 198, 281
+  size: 164, 118
+  orig: 179, 152
+  offset: 3, 10
+  index: -1
+图层 26 拷贝 2
+  rotate: false
+  xy: 183, 11
+  size: 48, 75
+  orig: 48, 75
+  offset: 0, 0
+  index: -1
+图层 27
+  rotate: false
+  xy: 240, 82
+  size: 75, 67
+  orig: 75, 67
+  offset: 0, 0
+  index: -1
+图层 27_00000
+  rotate: false
+  xy: 233, 13
+  size: 75, 67
+  orig: 100, 100
+  offset: 12, 17
+  index: -1
+图层 28
+  rotate: false
+  xy: 2, 88
+  size: 236, 129
+  orig: 237, 142
+  offset: 0, 5
+  index: -1
+图层 29 拷贝
+  rotate: false
+  xy: 198, 233
+  size: 37, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+图层 29 拷贝 2
+  rotate: false
+  xy: 340, 23
+  size: 27, 54
+  orig: 28, 54
+  offset: 1, 0
+  index: -1
+图层 29 拷贝 3
+  rotate: false
+  xy: 2, 219
+  size: 194, 180
+  orig: 211, 181
+  offset: 14, 0
+  index: -1
+图层 30 拷贝
+  rotate: true
+  xy: 317, 79
+  size: 70, 58
+  orig: 76, 58
+  offset: 0, 0
+  index: -1
+图层 30 拷贝 2
+  rotate: false
+  xy: 310, 13
+  size: 28, 64
+  orig: 28, 64
+  offset: 0, 0
+  index: -1
+图层 30 拷贝 3
+  rotate: false
+  xy: 2, 2
+  size: 179, 84
+  orig: 179, 88
+  offset: 0, 0
+  index: -1

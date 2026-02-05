@@ -1,0 +1,101 @@
+
+CCEffect %{
+techniques: 
+  - passes: 
+      - vert: vs
+        frag: fs
+        blendState: 
+          targets: 
+            - blend: true
+        rasterizerState: 
+          cullMode: none
+        properties: 
+          texture: 
+            value: white
+          uWidth: 
+            value: 3.0
+          uHeight: 
+            value: 3.0
+          uFrames: 
+            value: 16.0
+          uSpeed: 
+            value: 3.0
+          uInvertX: 
+            value: false
+            editor: 
+              type: boolean
+          uInvertY: 
+            value: false
+            editor: 
+              type: boolean
+}%
+        
+CCProgram vs %{
+    precision highp float;
+    #include <cc-global>
+    #include <cc-local>
+
+    in vec3 a_position;
+    #if USE_TEXTURE
+        in vec2 a_uv0;
+        out vec2 v_uv0;
+    #endif  
+    in vec4 a_color;
+    out vec4 v_color;
+
+    void main () {
+        mat4 mvp;
+        #if CC_USE_MODEL
+            mvp = cc_matViewProj * cc_matWorld;
+        #else
+            mvp = cc_matViewProj;
+        #endif
+
+        #if USE_TEXTURE
+            v_uv0 = a_uv0;
+        #endif
+
+        #if USE_TINT
+            // clear warning for spine
+        #endif
+
+        v_color = a_color;
+        gl_Position = mvp * vec4(a_position, 1);
+    }
+}%
+        
+CCProgram fs %{
+    precision highp float;
+    #include <cc-global>
+    #if USE_TEXTURE
+        in vec2 v_uv0;
+        uniform sampler2D texture;
+    #endif
+    in vec4 v_color;
+    uniform Constant {
+		float uWidth;
+		float uHeight;
+		float uFrames;
+		float uSpeed;
+		bool uInvertX;
+		bool uInvertY;
+	};
+	uniform sampler2D uTex;
+
+    vec4 UVAnimation_main (sampler2D Tex, vec2 UV, float Width, float Height, float Frames, float Seed, float Speed, bool InvertX, bool InvertY) 
+	{
+	    vec2 Invert = vec2(InvertX, InvertY);
+	    float Index = floor(mod(Seed * Speed, Frames));
+	    vec2 tileCount = vec2(1.0, 1.0) / vec2(Width, Height);
+	    float tileY = abs(Invert.y * Height - (floor(Index * tileCount.x) + Invert.y * 1.0));
+	    float tileX = abs(Invert.x * Width - ((Index - Width * floor(Index * tileCount.x)) + Invert.x * 1.0));
+	    return texture2D(Tex, (UV + vec2(tileX, tileY)) * tileCount);
+	}
+	void main () {
+    vec4 uvAn = UVAnimation_main(texture, v_uv0, uWidth, uHeight, uFrames, cc_time[0], uSpeed, uInvertX, uInvertY);
+    gl_FragColor = v_color * uvAn;
+	  //  gl_FragColor = UVAnimation_main(texture, v_uv0, uWidth, uHeight, uFrames, cc_time[0], uSpeed, uInvertX, uInvertY);
+	} 
+	
+}%
+        

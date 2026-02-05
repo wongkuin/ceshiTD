@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.Material",
+  "_name": "UVOffsetAngle",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "2466831a-6406-43af-81b5-e9b462903ffb"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "uOffset": {
+          "__type__": "cc.Vec4",
+          "x": 0.4,
+          "y": 0.1,
+          "z": 2,
+          "w": 2
+        }
+      }
+    }
+  }
+}

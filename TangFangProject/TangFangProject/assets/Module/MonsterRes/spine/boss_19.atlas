@@ -1,0 +1,153 @@
+
+boss_19.png
+size: 269,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 90, 203
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+上牙
+  rotate: true
+  xy: 253, 189
+  size: 49, 13
+  orig: 49, 13
+  offset: 0, 0
+  index: -1
+下牙
+  rotate: true
+  xy: 212, 193
+  size: 51, 16
+  orig: 51, 16
+  offset: 0, 0
+  index: -1
+口水
+  rotate: false
+  xy: 257, 240
+  size: 9, 27
+  orig: 9, 27
+  offset: 0, 0
+  index: -1
+右手1
+  rotate: true
+  xy: 156, 211
+  size: 22, 29
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+右手2
+  rotate: false
+  xy: 230, 206
+  size: 21, 38
+  orig: 21, 38
+  offset: 0, 0
+  index: -1
+右腿1
+  rotate: true
+  xy: 90, 182
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+右腿2
+  rotate: false
+  xy: 206, 170
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+右腿3
+  rotate: true
+  xy: 187, 207
+  size: 26, 21
+  orig: 27, 21
+  offset: 0, 0
+  index: -1
+嘴
+  rotate: false
+  xy: 212, 246
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+头
+  rotate: false
+  xy: 2, 190
+  size: 86, 77
+  orig: 86, 82
+  offset: 0, 2
+  index: -1
+左手1
+  rotate: false
+  xy: 230, 170
+  size: 20, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+左手2
+  rotate: true
+  xy: 156, 191
+  size: 18, 28
+  orig: 19, 28
+  offset: 0, 0
+  index: -1
+左腿1
+  rotate: true
+  xy: 115, 185
+  size: 16, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+左腿2
+  rotate: true
+  xy: 252, 169
+  size: 18, 15
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+左腿3
+  rotate: true
+  xy: 186, 177
+  size: 28, 18
+  orig: 28, 18
+  offset: 0, 0
+  index: -1
+眼珠1
+  rotate: false
+  xy: 143, 183
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+眼珠2
+  rotate: true
+  xy: 152, 183
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+眼白
+  rotate: true
+  xy: 115, 166
+  size: 17, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+身体
+  rotate: true
+  xy: 156, 235
+  size: 32, 54
+  orig: 32, 54
+  offset: 0, 0
+  index: -1
+鼻子
+  rotate: true
+  xy: 143, 192
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1

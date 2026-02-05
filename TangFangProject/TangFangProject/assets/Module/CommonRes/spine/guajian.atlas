@@ -1,0 +1,13 @@
+
+guajian.png
+size: 232,232
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_dk_qianbi
+  rotate: false
+  xy: 2, 2
+  size: 48, 228
+  orig: 51, 231
+  offset: 0, 1
+  index: -1

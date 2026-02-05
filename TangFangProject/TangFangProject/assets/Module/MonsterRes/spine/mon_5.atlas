@@ -1,0 +1,90 @@
+
+mon_5.png
+size: 240,240
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: true
+  xy: 208, 174
+  size: 64, 30
+  orig: 64, 64
+  offset: 0, 17
+  index: -1
+图层 18
+  rotate: false
+  xy: 2, 21
+  size: 123, 90
+  orig: 124, 90
+  offset: 0, 0
+  index: -1
+图层 19
+  rotate: false
+  xy: 2, 162
+  size: 166, 76
+  orig: 167, 76
+  offset: 0, 0
+  index: -1
+图层 20
+  rotate: false
+  xy: 208, 85
+  size: 25, 41
+  orig: 26, 42
+  offset: 0, 0
+  index: -1
+图层 21
+  rotate: false
+  xy: 208, 128
+  size: 25, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+图层 22
+  rotate: true
+  xy: 164, 87
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+图层 23
+  rotate: false
+  xy: 185, 93
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+图层 24
+  rotate: false
+  xy: 2, 115
+  size: 58, 45
+  orig: 59, 46
+  offset: 0, 0
+  index: -1
+图层 25
+  rotate: false
+  xy: 127, 22
+  size: 35, 40
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+图层 30
+  rotate: true
+  xy: 170, 113
+  size: 125, 36
+  orig: 126, 37
+  offset: 0, 0
+  index: -1
+图层 31
+  rotate: true
+  xy: 127, 64
+  size: 96, 35
+  orig: 98, 36
+  offset: 1, 0
+  index: -1
+图层 32
+  rotate: false
+  xy: 164, 26
+  size: 71, 57
+  orig: 71, 57
+  offset: 0, 0
+  index: -1

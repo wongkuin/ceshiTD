@@ -1,0 +1,356 @@
+
+ex_10002.png
+size: 3586,652
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: true
+  xy: 2294, 7
+  size: 245, 237
+  orig: 256, 256
+  offset: 6, 11
+  index: -1
+FX04_00003
+  rotate: false
+  xy: 3425, 36
+  size: 118, 119
+  orig: 250, 500
+  offset: 126, 55
+  index: -1
+FX04_00004
+  rotate: false
+  xy: 3075, 8
+  size: 152, 161
+  orig: 250, 500
+  offset: 90, 57
+  index: -1
+FX04_00005
+  rotate: true
+  xy: 1169, 7
+  size: 191, 255
+  orig: 250, 500
+  offset: 56, 48
+  index: -1
+FX04_00006
+  rotate: true
+  xy: 3262, 437
+  size: 213, 291
+  orig: 250, 500
+  offset: 34, 42
+  index: -1
+FX04_00007
+  rotate: true
+  xy: 1986, 15
+  size: 219, 306
+  orig: 250, 500
+  offset: 24, 59
+  index: -1
+FX04_00008
+  rotate: false
+  xy: 3044, 345
+  size: 216, 305
+  orig: 250, 500
+  offset: 15, 76
+  index: -1
+FX04_00009
+  rotate: true
+  xy: 1670, 14
+  size: 220, 314
+  orig: 250, 500
+  offset: 7, 87
+  index: -1
+FX04_00010
+  rotate: false
+  xy: 2284, 335
+  size: 208, 315
+  orig: 250, 500
+  offset: 9, 102
+  index: -1
+FX04_00011
+  rotate: false
+  xy: 2494, 338
+  size: 202, 312
+  orig: 250, 500
+  offset: 10, 106
+  index: -1
+FX04_00012
+  rotate: false
+  xy: 2860, 342
+  size: 182, 308
+  orig: 250, 500
+  offset: 21, 121
+  index: -1
+FX04_00013
+  rotate: false
+  xy: 2913, 32
+  size: 160, 308
+  orig: 250, 500
+  offset: 24, 124
+  index: -1
+FX04_00014
+  rotate: true
+  xy: 293, 4
+  size: 154, 295
+  orig: 250, 500
+  offset: 29, 140
+  index: -1
+FX04_00015
+  rotate: true
+  xy: 590, 4
+  size: 164, 306
+  orig: 250, 500
+  offset: 28, 132
+  index: -1
+FX04_00016
+  rotate: false
+  xy: 2698, 340
+  size: 160, 310
+  orig: 250, 500
+  offset: 29, 128
+  index: -1
+FX04_00017
+  rotate: true
+  xy: 898, 4
+  size: 167, 269
+  orig: 250, 500
+  offset: 28, 168
+  index: -1
+FX04_00018
+  rotate: false
+  xy: 2533, 9
+  size: 161, 245
+  orig: 250, 500
+  offset: 33, 191
+  index: -1
+FX04_00019
+  rotate: false
+  xy: 2, 2
+  size: 144, 156
+  orig: 250, 500
+  offset: 54, 279
+  index: -1
+FX04_00020
+  rotate: false
+  xy: 148, 2
+  size: 143, 156
+  orig: 250, 500
+  offset: 57, 276
+  index: -1
+FX04_00021
+  rotate: true
+  xy: 3461, 157
+  size: 142, 122
+  orig: 250, 500
+  offset: 61, 309
+  index: -1
+上衣
+  rotate: false
+  xy: 949, 200
+  size: 328, 450
+  orig: 328, 458
+  offset: 0, 8
+  index: -1
+右手
+  rotate: false
+  xy: 2385, 256
+  size: 99, 77
+  orig: 99, 79
+  offset: 0, 2
+  index: -1
+右腿1
+  rotate: true
+  xy: 2623, 270
+  size: 66, 143
+  orig: 67, 146
+  offset: 0, 1
+  index: -1
+右腿2
+  rotate: false
+  xy: 1484, 10
+  size: 91, 224
+  orig: 91, 225
+  offset: 0, 0
+  index: -1
+右腿3
+  rotate: false
+  xy: 2132, 277
+  size: 74, 373
+  orig: 74, 375
+  offset: 0, 0
+  index: -1
+右袖1
+  rotate: true
+  xy: 3075, 171
+  size: 172, 174
+  orig: 176, 179
+  offset: 3, 2
+  index: -1
+右袖2
+  rotate: true
+  xy: 3251, 187
+  size: 121, 208
+  orig: 124, 212
+  offset: 0, 4
+  index: -1
+右袖3
+  rotate: true
+  xy: 3474, 369
+  size: 66, 110
+  orig: 66, 112
+  offset: 0, 2
+  index: -1
+后头发
+  rotate: true
+  xy: 1279, 236
+  size: 414, 851
+  orig: 415, 856
+  offset: 1, 0
+  index: -1
+后衣片
+  rotate: false
+  xy: 2, 160
+  size: 323, 490
+  orig: 323, 535
+  offset: 0, 14
+  index: -1
+嘴
+  rotate: false
+  xy: 471, 160
+  size: 27, 8
+  orig: 27, 8
+  offset: 0, 0
+  index: -1
+头
+  rotate: true
+  xy: 2696, 3
+  size: 265, 210
+  orig: 265, 210
+  offset: 0, 0
+  index: -1
+头发1
+  rotate: false
+  xy: 471, 170
+  size: 151, 480
+  orig: 151, 480
+  offset: 0, 0
+  index: -1
+头发2
+  rotate: false
+  xy: 327, 166
+  size: 142, 484
+  orig: 142, 485
+  offset: 0, 0
+  index: -1
+左手
+  rotate: false
+  xy: 2284, 254
+  size: 99, 79
+  orig: 99, 79
+  offset: 0, 0
+  index: -1
+左腿1
+  rotate: true
+  xy: 2768, 272
+  size: 66, 143
+  orig: 67, 146
+  offset: 0, 1
+  index: -1
+左腿2
+  rotate: false
+  xy: 1577, 10
+  size: 91, 224
+  orig: 91, 225
+  offset: 0, 0
+  index: -1
+左腿3
+  rotate: false
+  xy: 2208, 277
+  size: 74, 373
+  orig: 74, 375
+  offset: 0, 0
+  index: -1
+左袖1
+  rotate: false
+  xy: 3251, 11
+  size: 172, 174
+  orig: 176, 179
+  offset: 1, 2
+  index: -1
+左袖2
+  rotate: true
+  xy: 3262, 310
+  size: 125, 210
+  orig: 128, 214
+  offset: 2, 4
+  index: -1
+左袖3
+  rotate: true
+  xy: 3474, 301
+  size: 66, 110
+  orig: 66, 112
+  offset: 0, 2
+  index: -1
+张嘴
+  rotate: false
+  xy: 1279, 201
+  size: 45, 33
+  orig: 45, 33
+  offset: 0, 0
+  index: -1
+眉毛1
+  rotate: true
+  xy: 1426, 42
+  size: 84, 36
+  orig: 84, 36
+  offset: 0, 0
+  index: -1
+眉毛2
+  rotate: true
+  xy: 1426, 128
+  size: 75, 41
+  orig: 75, 41
+  offset: 0, 0
+  index: -1
+眼睛1
+  rotate: true
+  xy: 2486, 256
+  size: 77, 68
+  orig: 77, 68
+  offset: 0, 0
+  index: -1
+眼睛2
+  rotate: true
+  xy: 2556, 259
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+花钿
+  rotate: true
+  xy: 949, 176
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+裙子
+  rotate: false
+  xy: 624, 173
+  size: 323, 477
+  orig: 323, 481
+  offset: 0, 0
+  index: -1
+闭眼1
+  rotate: false
+  xy: 1326, 205
+  size: 77, 29
+  orig: 77, 29
+  offset: 0, 0
+  index: -1
+闭眼2
+  rotate: false
+  xy: 1405, 205
+  size: 77, 29
+  orig: 77, 29
+  offset: 0, 0
+  index: -1

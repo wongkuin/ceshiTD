@@ -1,0 +1,208 @@
+
+hit_11305.png
+size: 1932,1932
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+魔手印5/1_00000
+  rotate: true
+  xy: 2, 1630
+  size: 300, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+魔手印5/1_00001
+  rotate: true
+  xy: 448, 1630
+  size: 300, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+魔手印5/1_00002
+  rotate: true
+  xy: 894, 1630
+  size: 300, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+魔手印5/1_00003
+  rotate: true
+  xy: 1340, 1630
+  size: 300, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+魔手印5/1_00004
+  rotate: true
+  xy: 2, 1328
+  size: 300, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+魔手印5/1_00005
+  rotate: true
+  xy: 448, 1328
+  size: 300, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+魔手印5/1_00006
+  rotate: true
+  xy: 894, 1328
+  size: 300, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00000
+  rotate: false
+  xy: 2, 942
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00001
+  rotate: false
+  xy: 388, 942
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00002
+  rotate: false
+  xy: 774, 942
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00003
+  rotate: false
+  xy: 1160, 858
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00004
+  rotate: false
+  xy: 1546, 858
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00005
+  rotate: false
+  xy: 2, 556
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00006
+  rotate: false
+  xy: 388, 556
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00007
+  rotate: false
+  xy: 774, 556
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00008
+  rotate: false
+  xy: 1160, 472
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00009
+  rotate: false
+  xy: 1546, 472
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00010
+  rotate: false
+  xy: 2, 170
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00011
+  rotate: false
+  xy: 388, 170
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00012
+  rotate: false
+  xy: 774, 170
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00013
+  rotate: false
+  xy: 1160, 86
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00014
+  rotate: false
+  xy: 1546, 86
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00020
+  rotate: false
+  xy: 1340, 1244
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+
+hit_113052.png
+size: 1160,1160
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+魔手印5/behit/behit_00015
+  rotate: false
+  xy: 2, 774
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00016
+  rotate: false
+  xy: 2, 388
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00017
+  rotate: false
+  xy: 388, 774
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00018
+  rotate: false
+  xy: 2, 2
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+魔手印5/behit/behit_00019
+  rotate: false
+  xy: 388, 388
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1

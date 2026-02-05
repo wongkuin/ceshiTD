@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b942df50-853f-4364-8b8d-c60dbdff409f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 36,
+  "height": 41,
+  "platformSettings": {},
+  "subMetas": {
+    "法宝-防御": {
+      "ver": "1.0.6",
+      "uuid": "233fdcbd-1e4f-4b1b-a828-550cc1122210",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b942df50-853f-4364-8b8d-c60dbdff409f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 36,
+      "height": 41,
+      "rawWidth": 36,
+      "rawHeight": 41,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+lvl_up2.png
+size: 48, 48
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+0_00000
+  rotate: false
+  xy: 2, 2
+  size: 40, 44
+  orig: 60, 60
+  offset: 9, 15
+  index: -1

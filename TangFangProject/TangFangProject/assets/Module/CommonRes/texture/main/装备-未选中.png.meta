@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "238c87f8-b46e-480f-9be2-b67b0822615a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 179,
+  "height": 203,
+  "platformSettings": {},
+  "subMetas": {
+    "装备-未选中": {
+      "ver": "1.0.6",
+      "uuid": "a9214569-dd8e-4a57-8d66-5f28e11df4e3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "238c87f8-b46e-480f-9be2-b67b0822615a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 179,
+      "height": 203,
+      "rawWidth": 179,
+      "rawHeight": 203,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

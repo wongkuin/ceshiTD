@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Material",
+  "_name": "OutLine",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "bbcaea9d-edb1-4ac1-baff-68bd6166276b"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "uIntensity": 1,
+        "uSize": 0.1,
+        "uGlowColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 240,
+          "b": 0,
+          "a": 255
+        }
+      },
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

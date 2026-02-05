@@ -1,0 +1,160 @@
+
+mon_11.png
+size: 173,173
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 77, 141
+  size: 64, 30
+  orig: 64, 64
+  offset: 0, 17
+  index: -1
+图层 36
+  rotate: false
+  xy: 77, 103
+  size: 51, 36
+  orig: 57, 36
+  offset: 6, 0
+  index: -1
+图层 37
+  rotate: true
+  xy: 2, 38
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+图层 39
+  rotate: true
+  xy: 118, 69
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+图层 40
+  rotate: false
+  xy: 88, 2
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+图层 41
+  rotate: false
+  xy: 52, 65
+  size: 15, 52
+  orig: 15, 52
+  offset: 0, 0
+  index: -1
+图层 42
+  rotate: true
+  xy: 46, 39
+  size: 24, 40
+  orig: 24, 40
+  offset: 0, 0
+  index: -1
+图层 43
+  rotate: false
+  xy: 141, 42
+  size: 15, 35
+  orig: 17, 35
+  offset: 1, 0
+  index: -1
+图层 44
+  rotate: false
+  xy: 142, 79
+  size: 21, 49
+  orig: 21, 49
+  offset: 0, 0
+  index: -1
+图层 45
+  rotate: false
+  xy: 2, 2
+  size: 50, 34
+  orig: 50, 34
+  offset: 0, 0
+  index: -1
+图层 47
+  rotate: false
+  xy: 54, 5
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+图层 48
+  rotate: false
+  xy: 158, 49
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+图层 49
+  rotate: false
+  xy: 143, 130
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+图层 50
+  rotate: true
+  xy: 116, 48
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+图层 51
+  rotate: false
+  xy: 131, 20
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+图层 52
+  rotate: true
+  xy: 158, 19
+  size: 28, 13
+  orig: 28, 13
+  offset: 0, 0
+  index: -1
+图层 53
+  rotate: false
+  xy: 131, 3
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+图层 54
+  rotate: true
+  xy: 130, 117
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+图层 55
+  rotate: false
+  xy: 2, 81
+  size: 48, 36
+  orig: 49, 37
+  offset: 1, 0
+  index: -1
+图层 56
+  rotate: false
+  xy: 2, 119
+  size: 73, 52
+  orig: 74, 57
+  offset: 0, 0
+  index: -1
+图层 71
+  rotate: true
+  xy: 69, 71
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+图层 72
+  rotate: false
+  xy: 88, 46
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1

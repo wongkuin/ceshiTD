@@ -1,0 +1,104 @@
+
+bullet_10605.png
+size: 230,586
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chilun_00000
+  rotate: true
+  xy: 131, 508
+  size: 76, 97
+  orig: 100, 200
+  offset: 11, 41
+  index: -1
+chilun_00001
+  rotate: true
+  xy: 2, 82
+  size: 78, 105
+  orig: 100, 200
+  offset: 9, 34
+  index: -1
+chilun_00002
+  rotate: true
+  xy: 116, 171
+  size: 83, 110
+  orig: 100, 200
+  offset: 6, 29
+  index: -1
+chilun_00003
+  rotate: true
+  xy: 119, 256
+  size: 82, 107
+  orig: 100, 200
+  offset: 7, 33
+  index: -1
+chilun_00004
+  rotate: true
+  xy: 2, 162
+  size: 82, 106
+  orig: 100, 200
+  offset: 7, 31
+  index: -1
+chilun_00005
+  rotate: true
+  xy: 2, 331
+  size: 82, 115
+  orig: 100, 200
+  offset: 7, 27
+  index: -1
+chilun_00006
+  rotate: true
+  xy: 2, 246
+  size: 83, 112
+  orig: 100, 200
+  offset: 10, 26
+  index: -1
+chilun_00007
+  rotate: true
+  xy: 2, 500
+  size: 84, 127
+  orig: 100, 200
+  offset: 9, 19
+  index: -1
+chilun_00008
+  rotate: true
+  xy: 120, 340
+  size: 88, 107
+  orig: 100, 200
+  offset: 5, 33
+  index: -1
+chilun_00009
+  rotate: true
+  xy: 110, 89
+  size: 80, 106
+  orig: 100, 200
+  offset: 13, 34
+  index: -1
+chilun_00010
+  rotate: true
+  xy: 2, 415
+  size: 83, 116
+  orig: 100, 200
+  offset: 9, 24
+  index: -1
+chilun_00011
+  rotate: true
+  xy: 131, 430
+  size: 76, 95
+  orig: 100, 200
+  offset: 11, 45
+  index: -1
+chilun_00012
+  rotate: true
+  xy: 95, 5
+  size: 75, 103
+  orig: 100, 200
+  offset: 13, 38
+  index: -1
+chilun_00013
+  rotate: true
+  xy: 2, 2
+  size: 78, 91
+  orig: 100, 200
+  offset: 10, 44
+  index: -1

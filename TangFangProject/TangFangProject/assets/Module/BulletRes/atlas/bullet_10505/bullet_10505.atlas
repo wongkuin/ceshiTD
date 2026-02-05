@@ -1,0 +1,48 @@
+
+bullet_10505.png
+size: 1094,79
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0_00000
+  rotate: false
+  xy: 2, 2
+  size: 180, 75
+  orig: 180, 75
+  offset: 0, 0
+  index: -1
+0_00001
+  rotate: false
+  xy: 184, 2
+  size: 180, 75
+  orig: 180, 75
+  offset: 0, 0
+  index: -1
+0_00002
+  rotate: false
+  xy: 366, 2
+  size: 180, 75
+  orig: 180, 75
+  offset: 0, 0
+  index: -1
+0_00003
+  rotate: false
+  xy: 548, 2
+  size: 180, 75
+  orig: 180, 75
+  offset: 0, 0
+  index: -1
+0_00004
+  rotate: false
+  xy: 730, 2
+  size: 180, 75
+  orig: 180, 75
+  offset: 0, 0
+  index: -1
+0_00005
+  rotate: false
+  xy: 912, 2
+  size: 180, 75
+  orig: 180, 75
+  offset: 0, 0
+  index: -1

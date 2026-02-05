@@ -1,0 +1,18 @@
+{
+  "ver": "1.0.27",
+  "uuid": "2466831a-6406-43af-81b5-e9b462903ffb",
+  "importer": "effect",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nuniform mat4 cc_matWorld;\nattribute vec3 a_position;\n#if USE_TEXTURE\n    attribute vec2 a_uv0;\n    varying vec2 v_uv0;\n#endif\nattribute vec4 a_color;\nvarying vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\nuniform vec4 cc_time;\n  #if USE_TEXTURE\n      varying vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  varying vec4 v_color;\n  uniform vec4 uOffset;\nuniform sampler2D uTex;\nvec2 rotateUV(vec2 uv, float rotation,float speed, float repeat,float speedx) {\n  uv -= 0.5;\n  float r = length(uv);\n  float s = sin(rotation);\n  float c = cos(rotation);\n  mat2 m = mat2(c, -s, s, c);\n  uv = m * uv;\n  uv += 0.5;\n  uv.y += speed * cc_time.x;\n  uv.x += speedx * cc_time.x;\n  return uv * repeat;\n}\n  vec4 UVOffset_main(sampler2D Tex, vec2 UV, vec4 Oaffset)\n{\n   vec2 uv = rotateUV(UV, radians(Oaffset.x),Oaffset.y, Oaffset.z,Oaffset.w);\n     return texture2D(Tex,uv);\n}\nvoid main () {\n    gl_FragColor = UVOffset_main(texture, v_uv0, uOffset);\n}"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nin vec3 a_position;\n#if USE_TEXTURE\n    in vec2 a_uv0;\n    out vec2 v_uv0;\n#endif\nin vec4 a_color;\nout vec4 v_color;\nvoid main () {\n    mat4 mvp;\n    #if CC_USE_MODEL\n        mvp = cc_matViewProj * cc_matWorld;\n    #else\n        mvp = cc_matViewProj;\n    #endif\n    #if USE_TEXTURE\n        v_uv0 = a_uv0;\n    #endif\n    #if USE_TINT\n    #endif\n    v_color = a_color;\n    gl_Position = mvp * vec4(a_position, 1);\n}",
+        "frag": "\n  precision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\n  #if USE_TEXTURE\n      in vec2 v_uv0;\n      uniform sampler2D texture;\n  #endif\n  in vec4 v_color;\n  uniform Constant {\n  vec4 uOffset;\n};\nuniform sampler2D uTex;\nvec2 rotateUV(vec2 uv, float rotation,float speed, float repeat,float speedx) {\n  uv -= 0.5;\n  float r = length(uv);\n  float s = sin(rotation);\n  float c = cos(rotation);\n  mat2 m = mat2(c, -s, s, c);\n  uv = m * uv;\n  uv += 0.5;\n  uv.y += speed * cc_time.x;\n  uv.x += speedx * cc_time.x;\n  return uv * repeat;\n}\n  vec4 UVOffset_main(sampler2D Tex, vec2 UV, vec4 Oaffset)\n{\n   vec2 uv = rotateUV(UV, radians(Oaffset.x),Oaffset.y, Oaffset.z,Oaffset.w);\n     return texture2D(Tex,uv);\n}\nvoid main () {\n    gl_FragColor = UVOffset_main(texture, v_uv0, uOffset);\n}"
+      }
+    }
+  ],
+  "subMetas": {}
+}

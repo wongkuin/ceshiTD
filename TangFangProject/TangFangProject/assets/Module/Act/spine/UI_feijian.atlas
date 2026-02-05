@@ -1,0 +1,368 @@
+
+UI_feijian.png
+size: 2028,2028
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0_00000
+  rotate: true
+  xy: 313, 1247
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00001
+  rotate: true
+  xy: 982, 1247
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00002
+  rotate: false
+  xy: 1651, 955
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00003
+  rotate: true
+  xy: 2, 870
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00004
+  rotate: true
+  xy: 671, 870
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00005
+  rotate: true
+  xy: 1340, 578
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00006
+  rotate: true
+  xy: 2, 493
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00007
+  rotate: true
+  xy: 671, 493
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00008
+  rotate: true
+  xy: 1340, 201
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00009
+  rotate: true
+  xy: 2, 116
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00010
+  rotate: true
+  xy: 671, 116
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+sa
+  rotate: false
+  xy: 2, 1908
+  size: 118, 118
+  orig: 128, 128
+  offset: 5, 5
+  index: -1
+tx_bj
+  rotate: true
+  xy: 2, 1324
+  size: 298, 309
+  orig: 298, 309
+  offset: 0, 0
+  index: -1
+五级合成/0_00008
+  rotate: false
+  xy: 122, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00009
+  rotate: false
+  xy: 324, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00010
+  rotate: false
+  xy: 526, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00011
+  rotate: false
+  xy: 728, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00012
+  rotate: false
+  xy: 930, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00013
+  rotate: false
+  xy: 1132, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00014
+  rotate: false
+  xy: 1334, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00015
+  rotate: false
+  xy: 1536, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00016
+  rotate: false
+  xy: 1738, 1826
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00017
+  rotate: false
+  xy: 2, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00018
+  rotate: false
+  xy: 204, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00019
+  rotate: false
+  xy: 406, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00020
+  rotate: false
+  xy: 608, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00021
+  rotate: false
+  xy: 810, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00022
+  rotate: false
+  xy: 1012, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00023
+  rotate: false
+  xy: 1214, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00024
+  rotate: false
+  xy: 1416, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+五级合成/0_00025
+  rotate: false
+  xy: 1618, 1624
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+UI_feijian2.png
+size: 1802,1802
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0_00011
+  rotate: false
+  xy: 2, 1133
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00012
+  rotate: true
+  xy: 2, 756
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00013
+  rotate: true
+  xy: 379, 1425
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00014
+  rotate: false
+  xy: 671, 756
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00015
+  rotate: true
+  xy: 2, 379
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00016
+  rotate: true
+  xy: 671, 379
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00017
+  rotate: false
+  xy: 1048, 1133
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00018
+  rotate: true
+  xy: 1048, 756
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00019
+  rotate: false
+  xy: 1425, 1133
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00020
+  rotate: false
+  xy: 1340, 87
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00021
+  rotate: true
+  xy: 2, 2
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00022
+  rotate: true
+  xy: 671, 2
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+
+UI_feijian3.png
+size: 1425,1425
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0_00023
+  rotate: false
+  xy: 2, 756
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00024
+  rotate: false
+  xy: 2, 87
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00025
+  rotate: true
+  xy: 379, 1048
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00026
+  rotate: false
+  xy: 1048, 756
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00027
+  rotate: true
+  xy: 379, 671
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00028
+  rotate: false
+  xy: 1048, 87
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1
+0_00029
+  rotate: true
+  xy: 379, 294
+  size: 375, 667
+  orig: 375, 667
+  offset: 0, 0
+  index: -1

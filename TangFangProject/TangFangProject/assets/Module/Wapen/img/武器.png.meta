@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fb582569-d942-42c7-8361-03e11628cd62",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 77,
+  "height": 51,
+  "platformSettings": {},
+  "subMetas": {
+    "武器": {
+      "ver": "1.0.6",
+      "uuid": "5973cd3f-f8b4-49a2-b74d-6b4bdf2a9477",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fb582569-d942-42c7-8361-03e11628cd62",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 77,
+      "height": 51,
+      "rawWidth": 77,
+      "rawHeight": 51,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

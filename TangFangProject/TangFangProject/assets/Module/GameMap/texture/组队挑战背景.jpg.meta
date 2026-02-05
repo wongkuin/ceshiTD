@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b6fb0760-516a-4591-867a-af57907c62ee",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1200,
+  "height": 3200,
+  "platformSettings": {},
+  "subMetas": {
+    "组队挑战背景": {
+      "ver": "1.0.6",
+      "uuid": "a360a439-1d12-4ae8-9952-905aa01d3323",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b6fb0760-516a-4591-867a-af57907c62ee",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1200,
+      "height": 3200,
+      "rawWidth": 1200,
+      "rawHeight": 3200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

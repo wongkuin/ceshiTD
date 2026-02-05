@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bullet_guihuo1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "e214d589-7041-42bb-8e42-32466758484e"
+                }
+              },
+              {
+                "frame": 0.03333333333333333,
+                "value": {
+                  "__uuid__": "f2f2ebce-ebe3-47ac-8991-e592c4b97e26"
+                }
+              },
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__uuid__": "c179cd3c-6db5-423f-9082-94d0e64237ad"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "27acc592-2353-448f-9f07-6db368c161a4"
+                }
+              },
+              {
+                "frame": 0.13333333333333333,
+                "value": {
+                  "__uuid__": "a2d2baf7-ad51-4107-98f8-8fdf0af2f3e0"
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__uuid__": "e8c872b0-6347-41fa-91ef-bdf17ad13159"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

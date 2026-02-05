@@ -1,0 +1,20 @@
+
+bg1_rain.png
+size: 59,59
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg1_rain1
+  rotate: true
+  xy: 2, 55
+  size: 2, 42
+  orig: 4, 51
+  offset: 1, 2
+  index: -1
+snow1
+  rotate: false
+  xy: 46, 46
+  size: 11, 11
+  orig: 13, 13
+  offset: 1, 1
+  index: -1

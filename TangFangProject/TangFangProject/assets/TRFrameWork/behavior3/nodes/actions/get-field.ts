@@ -1,0 +1,53 @@
+import type { BTContext } from "../../context";
+import { BTNode, BTNodeDef, BTStatus } from "../../node";
+import { BTTree } from "../../tree";
+
+export class GetField extends BTNode {
+    declare input: [{ [key: string]: unknown }, string | undefined];
+    declare args: { readonly field?: string };
+
+    override onTick(tree: BTTree<BTContext, unknown>): BTStatus {
+        const [obj] = this.input;
+        if (typeof obj !== "object" || !obj) {
+            this.warn(`invalid object: ${obj}`);
+            return "failure";
+        }
+
+        const args = this.args;
+        const field = this._checkOneof(1, args.field);
+        const value = obj[field];
+        if (typeof field !== "string" && typeof field !== "number") {
+            this.warn(`invalid field: ${field}`);
+            return "failure";
+        } else if (value !== undefined && value !== null) {
+            this.output.push(value);
+            return "success";
+        } else {
+            return "failure";
+        }
+    }
+
+    static override get descriptor(): BTNodeDef {
+        return {
+            name: "GetField",
+            type: "Action",
+            children: 0,
+            status: ["success", "failure"],
+            desc: "获取对象的字段值",
+            args: [
+                {
+                    name: "field",
+                    type: "string?",
+                    desc: "字段(field)",
+                    oneof: "字段(field)",
+                },
+            ],
+            input: ["对象", "字段(field)?"],
+            output: ["字段值(value)"],
+            doc: `
+                + 合法元素不包括 \`undefined\` 和 \`null\`
+                + 只有获取到合法元素时候才会返回 \`success\`，否则返回 \`failure\`
+            `,
+        };
+    }
+}

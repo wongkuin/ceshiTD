@@ -1,0 +1,20 @@
+
+UI_jinjieloop.png
+size: 368,368
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_di
+  rotate: false
+  xy: 2, 129
+  size: 313, 237
+  orig: 313, 260
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 317, 316
+  size: 49, 50
+  orig: 50, 50
+  offset: 1, 0
+  index: -1

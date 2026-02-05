@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d1cc151d-a71b-47f0-ba6c-4f122de7f5c5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 700,
+  "height": 700,
+  "platformSettings": {},
+  "subMetas": {
+    "主界面炼丹炉环境光": {
+      "ver": "1.0.6",
+      "uuid": "49f9f492-ccc2-4b04-8a9c-745299c46a89",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d1cc151d-a71b-47f0-ba6c-4f122de7f5c5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -1,
+      "trimX": 35,
+      "trimY": 203,
+      "width": 631,
+      "height": 296,
+      "rawWidth": 700,
+      "rawHeight": 700,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

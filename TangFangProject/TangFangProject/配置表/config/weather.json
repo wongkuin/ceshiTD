@@ -1,0 +1,1 @@
+{"isEncode":false,"data":{"data":[[1,1,"weather_1_1","",""],[2,0,"","","weather_3_2"],[3,0,"","weather_2_3","weather_3_2"],[4,0,"","","weather_3_2"]],"key":{"1":0,"2":1,"3":2,"4":3},"type":0,"nameList":["id","type","res1","res2","res3"],"typeList":["i","i","s","s","s"],"dbList":[],"name":"weather","index":{}}}

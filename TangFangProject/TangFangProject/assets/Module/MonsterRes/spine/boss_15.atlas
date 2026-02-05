@@ -1,0 +1,118 @@
+
+boss_15.png
+size: 350,350
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 61, 5
+  size: 64, 30
+  orig: 64, 64
+  offset: 0, 17
+  index: -1
+图层 35 拷贝
+  rotate: false
+  xy: 2, 150
+  size: 156, 198
+  orig: 156, 207
+  offset: 0, 5
+  index: -1
+图层 57
+  rotate: true
+  xy: 224, 91
+  size: 78, 53
+  orig: 84, 53
+  offset: 6, 0
+  index: -1
+图层 58
+  rotate: false
+  xy: 224, 269
+  size: 101, 79
+  orig: 101, 100
+  offset: 0, 21
+  index: -1
+图层 59
+  rotate: false
+  xy: 61, 37
+  size: 86, 111
+  orig: 86, 111
+  offset: 0, 0
+  index: -1
+图层 60
+  rotate: false
+  xy: 279, 23
+  size: 50, 94
+  orig: 50, 94
+  offset: 0, 0
+  index: -1
+图层 61
+  rotate: false
+  xy: 224, 10
+  size: 49, 79
+  orig: 49, 79
+  offset: 0, 0
+  index: -1
+图层 62
+  rotate: false
+  xy: 149, 40
+  size: 73, 108
+  orig: 73, 108
+  offset: 0, 0
+  index: -1
+图层 63
+  rotate: false
+  xy: 284, 217
+  size: 64, 50
+  orig: 64, 50
+  offset: 0, 0
+  index: -1
+图层 64
+  rotate: false
+  xy: 2, 12
+  size: 57, 136
+  orig: 58, 138
+  offset: 0, 0
+  index: -1
+图层 65
+  rotate: false
+  xy: 160, 170
+  size: 60, 98
+  orig: 61, 100
+  offset: 0, 0
+  index: -1
+图层 66
+  rotate: false
+  xy: 160, 270
+  size: 62, 78
+  orig: 62, 79
+  offset: 0, 0
+  index: -1
+图层 67
+  rotate: false
+  xy: 222, 171
+  size: 60, 96
+  orig: 61, 96
+  offset: 0, 0
+  index: -1
+图层 68
+  rotate: false
+  xy: 284, 119
+  size: 53, 96
+  orig: 53, 98
+  offset: 0, 0
+  index: -1
+图层 69
+  rotate: false
+  xy: 127, 6
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+图层 70
+  rotate: false
+  xy: 156, 17
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,133 @@
+//自动生成
+import CocosHelper from "../../TRFrameWork/UIFrame/CocosHelper";
+import Singleton from "../../TRFrameWork/UIFrame/Singleton";
+import { GameBundle } from "./GameEnum";
+import { BuffData, RelicsUpData, RelicsCategoryData, WaveTimesData, PassiveSkillData, KvData, DrawMainData, DrawSubData, MapConfigData, ItemBaseData, ShootBagData, PassData, GetMoneyData, MonsterData, MonsterPathData, ActiveEntranceData, ActiveRankData, DailyGiftPackData, SignData, PowUpData, WeatherData, RefreshCostData, ShopBoxData, ShopData, ArtifactGiftPackData, TalentData, ClearanceRewardsData, SnowBossDamBounsData, SnowBossData, GuideData, HeroData, ActSkillData, SummonData, OnlineBounsData, BulletSkillData, BulletData, BulltetSpEffData, TeamCopyKvData, TeamCopyDailyData, WapenUpData, WapenFusionData, WapenTableData, EquipSkillData, EquipSkillExData, WapenCostData } from "./DataDef";
+
+
+/**
+* 通用配置
+*/
+export default class ConfigMgr extends Singleton<ConfigMgr> {
+
+    private keyMap: Map<any, string> = new Map();
+    private dataMap: Map<string, Array<object>> = new Map();
+
+    constructor() {
+        super();
+        const keys = ["buff","relicsUp","relicsCategory","waveTimes","passiveSkill","kv","drawMain","drawSub","mapConfig","itemBase","shootBag","pass","getMoney","monster","monsterPath","activeEntrance","activeRank","DailyGiftPack","sign","powUp","weather","refreshCost","shopBox","shop","artifactGiftPack","talent","clearanceRewards","snowBossDamBouns","snowBoss","guide","hero","actSkill","summon","onlineBouns","bulletSkill","bullet","bulltetSpEff","teamCopyKv","teamCopyDaily","wapenUp","wapenFusion","wapenTable","equipSkill","equipSkillEx","wapenCost"];
+        const constructors = [BuffData, RelicsUpData, RelicsCategoryData, WaveTimesData, PassiveSkillData, KvData, DrawMainData, DrawSubData, MapConfigData, ItemBaseData, ShootBagData, PassData, GetMoneyData, MonsterData, MonsterPathData, ActiveEntranceData, ActiveRankData, DailyGiftPackData, SignData, PowUpData, WeatherData, RefreshCostData, ShopBoxData, ShopData, ArtifactGiftPackData, TalentData, ClearanceRewardsData, SnowBossDamBounsData, SnowBossData, GuideData, HeroData, ActSkillData, SummonData, OnlineBounsData, BulletSkillData, BulletData, BulltetSpEffData, TeamCopyKvData, TeamCopyDailyData, WapenUpData, WapenFusionData, WapenTableData, EquipSkillData, EquipSkillExData, WapenCostData];
+        for (let i = 0; i < keys.length; i++)
+            this.keyMap.set(constructors[i], keys[i]);
+    }
+
+    private loadState = 0;
+    private waitQueues: Array<() => void> = [];
+
+    //TODO:网络地址加载
+    public loadAll(option?: { remoteUrl: string, remoteKeys?: Array<string> }): Promise<void> {
+        return new Promise(resolve => {
+            if (this.loadState == 2) {
+                resolve();
+                return;
+            }
+
+            if (this.loadState == 1) {
+                this.waitQueues.push(resolve);
+                return;
+            }
+
+            this.waitQueues.push(resolve);
+            let count = this.keyMap.size;
+            const loadPath = "/";
+            this.loadState = 1;
+            this.keyMap.forEach((key, value) => {
+                // console.log("load config: " + key, value);
+                 CocosHelper.loadRes(loadPath + key,  cc.JsonAsset, GameBundle.Bundle_Config, (err, asset: cc.JsonAsset) => {
+                    if (err) console.log(err);
+                    else {
+                        this.setCompactJson(key, asset.json.data, value);
+                    }
+                    count--;
+                    if (count <= 0) {
+                        this.loadState = 2;
+                        while (this.waitQueues.length > 0) {
+                            const call = this.waitQueues.shift();
+                            call();
+                        }
+                    }
+                }, this);
+
+            });
+        });
+    }
+
+
+    protected setCompactJson<T>(key: string, json: any, constructors: new () => T) {
+        // this.keyMap.get(key)
+        let nameList = json.nameList;
+        //console.log(key)
+        if (nameList) {
+            let allData = [];
+            for (const key in json.key) {
+                if (json.key.hasOwnProperty(key)) {
+                    const element = json.key[key];
+                    let data = json.data[element]
+                    let obj: T = new constructors();
+                    for (let index = 0; index < nameList.length; index++) {
+                        const keyName = nameList[index];
+                        obj[keyName] = data[index] ?? null; // 用默认值替代 undefined
+                    }
+                    allData.push(obj)
+                }
+            }
+            this.dataMap.set(key, allData);
+        }
+    }
+
+    /**
+    * 用于单个数据,通常用于系统数据，只有单条数据 
+    * @param type 类型
+    * @returns 
+    */
+    public getOne<T>(type: new () => T): T {
+        const key = this.keyMap.get(type);
+        return this.dataMap.get(key) as T;
+    }
+
+    /**
+    * 获取单个
+    * @param keyVal key值
+    * @param type 类型
+    * @param key key
+    * @returns 
+    */
+    public getById<T>(keyVal: number | string, type: new () => T, key = "id"): T {
+        return this.find(type, p => p[key] == keyVal);
+    }
+
+    /**
+     * 获取所有数据
+     * @param type 类型
+     * @returns 
+     */
+    public getAll<T>(type: new () => T): Array<T> {
+        const key = this.keyMap.get(type);
+        return this.dataMap.get(key) as Array<T>;
+    }
+
+
+    public find<T>(type: new () => T, predicate: (value: T, index: number, obj: T[]) => unknown): T {
+        return this.getAll(type)?.find(predicate);
+    }
+
+    public filter<T>(type: new () => T, predicate: (value: T, index: number, array: T[]) => unknown): Array<T> {
+        return this.getAll(type)?.filter(predicate);
+    }
+
+    public forEach<T>(type: new () => T, callbackfn: (value: T, index: number, array: T[]) => void): void {
+        this.getAll(type)?.forEach(callbackfn);
+    }
+
+
+}

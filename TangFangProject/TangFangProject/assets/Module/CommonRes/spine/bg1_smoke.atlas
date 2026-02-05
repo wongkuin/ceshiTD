@@ -1,0 +1,13 @@
+
+bg1_smoke.png
+size: 124,124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg1_17-2
+  rotate: false
+  xy: 2, 44
+  size: 120, 78
+  orig: 128, 92
+  offset: 5, 7
+  index: -1

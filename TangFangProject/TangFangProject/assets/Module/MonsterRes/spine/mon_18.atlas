@@ -1,0 +1,20 @@
+
+mon_18.png
+size: 161,161
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: true
+  xy: 123, 95
+  size: 64, 36
+  orig: 64, 64
+  offset: 0, 14
+  index: -1
+图层 4
+  rotate: false
+  xy: 2, 43
+  size: 119, 116
+  orig: 129, 122
+  offset: 2, 4
+  index: -1

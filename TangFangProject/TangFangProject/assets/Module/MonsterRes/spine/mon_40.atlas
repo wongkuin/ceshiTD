@@ -1,0 +1,244 @@
+
+mon_40.png
+size: 348,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 77, 32
+  size: 64, 30
+  orig: 64, 64
+  offset: 0, 17
+  index: -1
+右手指
+  rotate: true
+  xy: 106, 13
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: -1
+右手掌
+  rotate: false
+  xy: 73, 5
+  size: 31, 25
+  orig: 31, 26
+  offset: 0, 1
+  index: -1
+右手臂
+  rotate: true
+  xy: 149, 46
+  size: 29, 76
+  orig: 29, 79
+  offset: 0, 2
+  index: -1
+右手衣服1
+  rotate: true
+  xy: 255, 244
+  size: 38, 59
+  orig: 39, 63
+  offset: 0, 2
+  index: -1
+右手衣服遮罩
+  rotate: false
+  xy: 296, 292
+  size: 37, 54
+  orig: 37, 61
+  offset: 0, 0
+  index: -1
+嘴巴
+  rotate: true
+  xy: 77, 98
+  size: 24, 10
+  orig: 24, 10
+  offset: 0, 0
+  index: -1
+头
+  rotate: false
+  xy: 2, 124
+  size: 86, 99
+  orig: 86, 99
+  offset: 0, 0
+  index: -1
+头发1
+  rotate: true
+  xy: 239, 94
+  size: 102, 69
+  orig: 102, 69
+  offset: 0, 0
+  index: -1
+头发2
+  rotate: false
+  xy: 90, 74
+  size: 57, 78
+  orig: 57, 78
+  offset: 0, 0
+  index: -1
+头发3
+  rotate: true
+  xy: 283, 17
+  size: 46, 60
+  orig: 46, 60
+  offset: 0, 0
+  index: -1
+头发4
+  rotate: false
+  xy: 2, 36
+  size: 73, 86
+  orig: 73, 87
+  offset: 0, 1
+  index: -1
+左手1
+  rotate: true
+  xy: 90, 154
+  size: 69, 65
+  orig: 69, 65
+  offset: 0, 0
+  index: -1
+左手2
+  rotate: true
+  xy: 2, 2
+  size: 32, 47
+  orig: 36, 47
+  offset: 1, 0
+  index: -1
+帽子
+  rotate: false
+  xy: 157, 77
+  size: 80, 119
+  orig: 80, 123
+  offset: 0, 0
+  index: -1
+披风
+  rotate: false
+  xy: 2, 225
+  size: 155, 121
+  orig: 155, 122
+  offset: 0, 1
+  index: -1
+眉毛1
+  rotate: true
+  xy: 204, 5
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+眉毛2
+  rotate: true
+  xy: 51, 5
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+眼珠1
+  rotate: false
+  xy: 149, 146
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+眼珠2
+  rotate: false
+  xy: 149, 138
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+眼白1
+  rotate: true
+  xy: 204, 24
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+眼白2
+  rotate: true
+  xy: 292, 228
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+胡子
+  rotate: true
+  xy: 143, 4
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+胡子1
+  rotate: true
+  xy: 187, 7
+  size: 37, 15
+  orig: 37, 15
+  offset: 0, 0
+  index: -1
+胡子2
+  rotate: false
+  xy: 283, 2
+  size: 37, 13
+  orig: 37, 13
+  offset: 0, 0
+  index: -1
+脚1
+  rotate: true
+  xy: 255, 213
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+脚2
+  rotate: true
+  xy: 255, 213
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+身体
+  rotate: false
+  xy: 159, 198
+  size: 94, 148
+  orig: 96, 154
+  offset: 2, 4
+  index: -1
+铁链
+  rotate: false
+  xy: 227, 16
+  size: 54, 47
+  orig: 54, 47
+  offset: 0, 0
+  index: -1
+铃铛
+  rotate: true
+  xy: 239, 65
+  size: 27, 80
+  orig: 27, 80
+  offset: 0, 0
+  index: -1
+闭眼1
+  rotate: true
+  xy: 77, 64
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+闭眼2
+  rotate: true
+  xy: 77, 77
+  size: 19, 8
+  orig: 19, 8
+  offset: 0, 0
+  index: -1
+领口
+  rotate: true
+  xy: 255, 284
+  size: 62, 39
+  orig: 62, 39
+  offset: 0, 0
+  index: -1
+鼻子
+  rotate: true
+  xy: 87, 65
+  size: 7, 19
+  orig: 7, 19
+  offset: 0, 0
+  index: -1

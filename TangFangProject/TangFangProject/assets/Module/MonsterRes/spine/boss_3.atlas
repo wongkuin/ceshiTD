@@ -1,0 +1,55 @@
+
+boss_3.png
+size: 788,788
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 68, 721
+  size: 65, 112
+  orig: 67, 115
+  offset: 1, 1
+  index: -1
+1_00000
+  rotate: false
+  xy: 2, 750
+  size: 64, 36
+  orig: 64, 64
+  offset: 0, 14
+  index: -1
+2
+  rotate: true
+  xy: 182, 721
+  size: 65, 114
+  orig: 67, 115
+  offset: 1, 0
+  index: -1
+3
+  rotate: true
+  xy: 673, 714
+  size: 72, 113
+  orig: 73, 115
+  offset: 0, 1
+  index: -1
+4
+  rotate: true
+  xy: 548, 718
+  size: 68, 123
+  orig: 70, 125
+  offset: 1, 1
+  index: -1
+5
+  rotate: true
+  xy: 422, 719
+  size: 67, 124
+  orig: 68, 126
+  offset: 0, 1
+  index: -1
+6
+  rotate: true
+  xy: 298, 720
+  size: 66, 122
+  orig: 68, 125
+  offset: 1, 1
+  index: -1

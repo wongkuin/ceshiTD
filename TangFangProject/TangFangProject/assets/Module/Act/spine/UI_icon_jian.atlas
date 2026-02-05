@@ -1,0 +1,20 @@
+
+UI_icon_jian.png
+size: 142,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_guangxiao
+  rotate: true
+  xy: 82, 80
+  size: 60, 58
+  orig: 63, 65
+  offset: 0, 3
+  index: -1
+ui_jian
+  rotate: false
+  xy: 2, 75
+  size: 78, 65
+  orig: 82, 68
+  offset: 2, 2
+  index: -1

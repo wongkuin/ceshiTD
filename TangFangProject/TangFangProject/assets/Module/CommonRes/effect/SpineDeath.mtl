@@ -1,0 +1,15 @@
+{
+  "__type__": "cc.Material",
+  "_name": "SpineDeath",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "fedd58d9-7f15-4f54-adf4-79811783853a"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {}
+    }
+  }
+}

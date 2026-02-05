@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a7d30a6b-2b7f-4a24-adf3-e957268098c6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 44,
+  "height": 41,
+  "platformSettings": {},
+  "subMetas": {
+    "法宝-血量": {
+      "ver": "1.0.6",
+      "uuid": "b95f7f2f-a7c7-4800-a79e-54d8e500e9cb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a7d30a6b-2b7f-4a24-adf3-e957268098c6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 44,
+      "height": 41,
+      "rawWidth": 44,
+      "rawHeight": 41,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

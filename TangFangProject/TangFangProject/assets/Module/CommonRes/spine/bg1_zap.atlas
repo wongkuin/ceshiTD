@@ -1,0 +1,27 @@
+
+bg1_zap.png
+size: 258,258
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg1effect_1
+  rotate: false
+  xy: 36, 120
+  size: 74, 136
+  orig: 86, 136
+  offset: 11, 0
+  index: -1
+bg1effect_2
+  rotate: false
+  xy: 2, 2
+  size: 32, 254
+  orig: 32, 254
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 36, 34
+  size: 38, 84
+  orig: 38, 84
+  offset: 0, 0
+  index: -1

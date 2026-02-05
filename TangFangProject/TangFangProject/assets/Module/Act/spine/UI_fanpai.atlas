@@ -1,0 +1,244 @@
+
+UI_fanpai.png
+size: 1228,1228
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_00000
+  rotate: true
+  xy: 645, 40
+  size: 95, 142
+  orig: 384, 384
+  offset: 144, 121
+  index: -1
+2_00001
+  rotate: true
+  xy: 442, 2
+  size: 90, 146
+  orig: 384, 384
+  offset: 148, 119
+  index: -1
+2_00002
+  rotate: true
+  xy: 789, 75
+  size: 79, 149
+  orig: 384, 384
+  offset: 154, 118
+  index: -1
+2_00003
+  rotate: false
+  xy: 1125, 206
+  size: 60, 151
+  orig: 384, 384
+  offset: 164, 117
+  index: -1
+2_00004
+  rotate: true
+  xy: 2, 14
+  size: 45, 157
+  orig: 384, 384
+  offset: 175, 115
+  index: -1
+2_00005
+  rotate: false
+  xy: 895, 383
+  size: 58, 183
+  orig: 384, 384
+  offset: 161, 102
+  index: -1
+2_00006
+  rotate: true
+  xy: 955, 359
+  size: 73, 199
+  orig: 384, 384
+  offset: 153, 83
+  index: -1
+2_00007
+  rotate: true
+  xy: 249, 2
+  size: 90, 191
+  orig: 384, 384
+  offset: 144, 97
+  index: -1
+2_00008
+  rotate: false
+  xy: 1023, 166
+  size: 100, 191
+  orig: 384, 384
+  offset: 139, 98
+  index: -1
+2_00009
+  rotate: false
+  xy: 911, 170
+  size: 110, 187
+  orig: 384, 384
+  offset: 134, 99
+  index: -1
+2_00010
+  rotate: false
+  xy: 785, 156
+  size: 124, 194
+  orig: 384, 384
+  offset: 127, 95
+  index: -1
+2_00011
+  rotate: false
+  xy: 645, 137
+  size: 138, 202
+  orig: 384, 384
+  offset: 121, 91
+  index: -1
+2_00012
+  rotate: false
+  xy: 740, 352
+  size: 153, 214
+  orig: 384, 384
+  offset: 114, 85
+  index: -1
+2_00013
+  rotate: false
+  xy: 481, 117
+  size: 162, 222
+  orig: 384, 384
+  offset: 107, 81
+  index: -1
+2_00014
+  rotate: true
+  xy: 978, 623
+  size: 166, 230
+  orig: 384, 384
+  offset: 109, 76
+  index: -1
+2_00015
+  rotate: true
+  xy: 738, 568
+  size: 166, 228
+  orig: 384, 384
+  offset: 109, 78
+  index: -1
+2_00016
+  rotate: false
+  xy: 2, 890
+  size: 231, 336
+  orig: 384, 384
+  offset: 77, 24
+  index: -1
+2_00017
+  rotate: false
+  xy: 2, 586
+  size: 212, 302
+  orig: 384, 384
+  offset: 87, 41
+  index: -1
+2_00018
+  rotate: false
+  xy: 2, 318
+  size: 219, 266
+  orig: 384, 384
+  offset: 94, 59
+  index: -1
+2_00019
+  rotate: false
+  xy: 249, 94
+  size: 230, 235
+  orig: 384, 384
+  offset: 91, 73
+  index: -1
+2_00020
+  rotate: true
+  xy: 734, 736
+  size: 231, 242
+  orig: 384, 384
+  offset: 88, 69
+  index: -1
+2_00021
+  rotate: true
+  xy: 982, 991
+  size: 235, 244
+  orig: 384, 384
+  offset: 87, 70
+  index: -1
+2_00022
+  rotate: false
+  xy: 235, 963
+  size: 248, 263
+  orig: 384, 384
+  offset: 84, 54
+  index: -1
+2_00023
+  rotate: false
+  xy: 485, 969
+  size: 247, 257
+  orig: 384, 384
+  offset: 84, 63
+  index: -1
+2_00024
+  rotate: false
+  xy: 2, 61
+  size: 245, 255
+  orig: 384, 384
+  offset: 88, 65
+  index: -1
+2_00025
+  rotate: true
+  xy: 235, 715
+  size: 246, 248
+  orig: 384, 384
+  offset: 87, 70
+  index: -1
+2_00026
+  rotate: false
+  xy: 485, 731
+  size: 247, 236
+  orig: 384, 384
+  offset: 85, 69
+  index: -1
+2_00027
+  rotate: false
+  xy: 734, 969
+  size: 246, 257
+  orig: 384, 384
+  offset: 84, 51
+  index: -1
+2_00028
+  rotate: false
+  xy: 223, 500
+  size: 253, 213
+  orig: 384, 384
+  offset: 78, 112
+  index: -1
+2_00029
+  rotate: false
+  xy: 485, 532
+  size: 251, 197
+  orig: 384, 384
+  offset: 82, 113
+  index: -1
+2_00030
+  rotate: false
+  xy: 982, 791
+  size: 244, 198
+  orig: 384, 384
+  offset: 90, 113
+  index: -1
+2_00031
+  rotate: false
+  xy: 478, 341
+  size: 260, 189
+  orig: 384, 384
+  offset: 90, 114
+  index: -1
+2_00032
+  rotate: false
+  xy: 968, 434
+  size: 255, 187
+  orig: 384, 384
+  offset: 85, 115
+  index: -1
+2_00033
+  rotate: false
+  xy: 223, 331
+  size: 251, 167
+  orig: 384, 384
+  offset: 87, 135
+  index: -1

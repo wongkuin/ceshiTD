@@ -1,0 +1,118 @@
+
+UI_lightsweep.png
+size: 522,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0_00000
+  rotate: true
+  xy: 2, 420
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00001
+  rotate: true
+  xy: 132, 420
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00002
+  rotate: true
+  xy: 262, 420
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00003
+  rotate: true
+  xy: 392, 420
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00004
+  rotate: true
+  xy: 2, 318
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00005
+  rotate: true
+  xy: 132, 318
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00006
+  rotate: true
+  xy: 262, 318
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00007
+  rotate: true
+  xy: 392, 318
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00008
+  rotate: true
+  xy: 2, 216
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00009
+  rotate: true
+  xy: 132, 216
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00010
+  rotate: true
+  xy: 262, 216
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00011
+  rotate: true
+  xy: 392, 216
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00012
+  rotate: true
+  xy: 2, 114
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00013
+  rotate: true
+  xy: 132, 114
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00014
+  rotate: true
+  xy: 262, 114
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+0_00015
+  rotate: true
+  xy: 392, 114
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1

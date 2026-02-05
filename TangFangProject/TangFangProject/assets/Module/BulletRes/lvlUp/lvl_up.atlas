@@ -1,0 +1,13 @@
+
+lvl_up.png
+size: 26,26
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shengji
+  rotate: false
+  xy: 2, 2
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1

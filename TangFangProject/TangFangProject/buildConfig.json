@@ -1,0 +1,54 @@
+{
+    "paths": {
+        "cocos_path": "C:/ProgramData/cocos/editors/Creator/2.4.11/CocosCreator.exe",
+        "project_path": "E:/TangFangProject",
+        "orientation": "portrait",
+        "debug": "false",
+        "build_path": "./build",
+        "release_path": "./GameTD",
+        "local_path": "./local",
+        "settings_path": "./settings",
+        "config_path": "./assets/TRFrameWork/ThirdSDK/cocos-multi-platform/AdConfig.json",
+        "start_scene": "0e3b81a3-653c-4f4f-b848-529ecae21a31",
+        "copy_root": "./zbuildExt",
+        "game_id": "squares_def",
+        "copy_files": []
+    },
+    "build_config": {
+        "template": {
+            "actual_platform": "bytedance",
+            "plat_name": "mini-game",
+            "settings_name": "bytedance.json",
+            "appid": "wx66e00bdafe5f2f35",
+            "build_name": "bytedance",
+            "file_name": "douyin",
+            "remote_root": "远程资源地址： https://www.pipixia.xin/tt",
+            "curr_platform": 0,
+            "platform_type": "Dy",
+            "app_secret": "1c008268f00e3ff1a9d8f95e0506e0a9649d744e",
+            "reward_video": "a3b0lf3kcga84l8ldf",
+            "interstitial": "test",
+            "banner": "test",
+            "game_ver": "v1.0.0",
+            "svn_ver": 1,
+            "game_name": "模版 说明"
+        },
+        "wechat_public": {
+            "actual_platform": "wechatgame",
+            "plat_name": "mini-game",
+            "settings_name": "wechatgame.json",
+            "appid": "wx66e00bdafe5f2f35",
+            "build_name": "wechatgame",
+            "file_name": "wechat",
+            "remote_root": "https://www.pipixia.xin/tt1",
+            "curr_platform": 1,
+            "app_secret": "abc",
+            "reward_video": "adunit-8d55633df0abb3c6",
+            "interstitial": "test",
+            "banner": "test",
+            "game_ver": "",
+            "svn_ver": 1,
+            "game_name": "动物跑酷"
+        }
+    }
+}

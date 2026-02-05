@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4579e013-4d2a-4d26-9aca-be4a6666221b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 211,
+  "height": 60,
+  "platformSettings": {},
+  "subMetas": {
+    "宝箱奖励": {
+      "ver": "1.0.6",
+      "uuid": "0d5fb6e4-8370-40e3-abf9-0265b4e35bd2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4579e013-4d2a-4d26-9aca-be4a6666221b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 211,
+      "height": 60,
+      "rawWidth": 211,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
